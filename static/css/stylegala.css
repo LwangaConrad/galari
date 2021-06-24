@@ -1,0 +1,40 @@
+h1.mid {
+	font-family: segoe script;
+}
+.sect{
+	background: rgba(0,128,0,0.6);
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 30px;
+	margin-right: 200px;
+	margin-left: 200px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+}
+.gal{
+	font-family: segoe ui black;
+	color: yellow;
+}
+.car{
+	color: black;
+	font-size: 10px;
+}
+.ter{
+	margin-left: 50px;
+}
+.t{
+	padding-left: 400px;
+}
+.pp{
+	border-radius: 10px;
+}
+.centered {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  color: white;
+}
