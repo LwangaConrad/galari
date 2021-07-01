@@ -18,11 +18,11 @@
 	          <a class="nav-link active" aria-current="page" href="#">Home</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">About</a>
+	          <a class="nav-link" href="/about">About</a>
 	        </li>
 	      </ul>
-	      <form class="d-flex">
-		      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	      <form class="d-flex" action="/search/" method="get">
+		      <input class="form-control me-2" name="q" type="text" placeholder="Search for artist or title" aria-label="Search">
 		      <button class="btn btn-outline-success" type="submit">Search</button>
 		    </form>
 	      <span class="navbar-text">
@@ -41,28 +41,28 @@
 	<div class="row sect">
 		<p>Select Art pieces by type</p>
 		<div class="row">
-			<div class="col"><a><img src="../static/img/painting.jpg" height="300px" width="300px" class="pp" alt="Paintings" float="top"></a></div>
-			<div class="col"><a><img src="../static/img/phot.jpg" height="300px" name="Photography" alt="Photography" class="pp" width="300px"></a><br></div>
+			<div class="col"><a href="/artworks/PA"><img src="../static/img/painting.jpg" height="300px" width="300px" class="pp" alt="Paintings" float="top"></a></div>
+			<div class="col"><a href="/artworks/PH"><img src="../static/img/phot.jpg" height="300px" name="Photography" alt="Photography" class="pp" width="300px"></a><br></div>
 		</div>
 		<div class="row">
-			<div class="col"><a>Paintings</a></div>
-			<div class="col"><a>Photography</a></div>
+			<div class="col"><a href="/artworks/PA" >Paintings</a></div>
+			<div class="col"><a href="/artworks/PH">Photography</a></div>
 		</div>
 		<div class="row">
-			<div class="col"><a><img src="../static/img/sculpt.jpg" alt="Sculptures" height="300px" class="pp" width="300px"></a></div>
-			<div class="col"><a><img src="../static/img/abst.jpg" alt="Abstract Art" height="300px" class="pp" width="300px"></a><br></div>
+			<div class="col"><a href="/artworks/SC"><img src="../static/img/sculpt.jpg" alt="Sculptures" height="300px" class="pp" width="300px"></a></div>
+			<div class="col"><a href="/artworks/AB"><img src="../static/img/abst.jpg" alt="Abstract Art" height="300px" class="pp" width="300px"></a><br></div>
 		</div>
 		<div class="row">
-			<div class="col"><a>Sculptures</a></div>
-			<div class="col"><a>Abstract</a></div>
+			<div class="col"><a href="/artworks/SC">Sculptures</a></div>
+			<div class="col"><a href="/artworks/AB">Abstract</a></div>
 		</div>
 		<div class="row">
-			<div class="col"><a><img src="../static/img/patt.jpg" alt="Drawings" height="300px" class="pp" width="300px"></a></div>
-			<div class="col"><a><img src="../static/img/inst.jpg" alt="Installations" height="300px" class="pp" width="300px"></a></div>
+			<div class="col"><a href="/artworks/DR"><img src="../static/img/patt.jpg" alt="Drawings" height="300px" class="pp" width="300px"></a></div>
+			<div class="col"><a href="/artworks/IN"><img src="../static/img/inst.jpg" alt="Installations" height="300px" class="pp" width="300px"></a></div>
 		</div>
 		<div class="row">
-			<div class="col"><a>Drawings</a></div>
-			<div class="col"><a>Installations</a></div>
+			<div class="col"><a href="/artworks/DR">Drawings</a></div>
+			<div class="col"><a href="/artworks/IN">Installations</a></div>
 		</div>
 		<p>Search for work by Artist</p><br>
 		<div class="card-group car">
@@ -71,7 +71,7 @@
 			    <div class="card-body text-center">
 			        <h5 class="card-title">Matt Kayem</h5>
 			        <p class="card-text">Matt Kayem is a Ugandan artist and art critic who specializes in all manner of forms of art </p> 
-			        <a href="#" class="btn btn-primary btn-sm">View Profile</a>
+			        <a href="/display/Matt Kayem" class="btn btn-primary btn-sm">View Profile</a>
 			    </div>
 			</div>
 		    <div class="card">
